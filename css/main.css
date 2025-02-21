@@ -31,3 +31,26 @@ div {
 .social-icon > img[src*="facebook"] {
 	width: 25%;
 }
+
+.btn-yellow {
+  text-align: center;
+  margin: 40px auto 50px auto;
+  padding: 18px 15px 18px 15px;
+  background: #ffc900;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 21px;
+  border-radius: 13px;
+  border: 0 solid transparent;
+  -webkit-transition: background .4s ease;
+  transition: background .4s ease;
+  display: block;
+  width: 158px;
+  letter-spacing: 0.25px;
+}
+
+.btn-yellow:hover {
+  background: #ffeb98;
+}
+
